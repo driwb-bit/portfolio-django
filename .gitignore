@@ -1,0 +1,15 @@
+# Ignorar el entorno virtual (lo recrearemos en casa)
+entorno/
+venv/
+env/
+.env
+db.sqlite3
+# Ignorar archivos compilados de Python
+__pycache__/
+*.pyc
+.DS_Store
+# Ignorar base de datos (NORMALMENTE se ignora, pero HOY la subiremos)
+# db.sqlite3  <-- Lo dejo comentado con # para que SÍ se suba y no pierdas tus datos
+
+# Ignorar media (NORMALMENTE se usa S3, pero HOY la subiremos para que lleves tu foto)
+# media/      <-- Lo dejo comentado para que SÍ se suba
